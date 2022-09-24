@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    background: center/ cover no-repeat url(https://images.unsplash.com/photo-1606340820555-cc805b3268fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80);
+}
+.title{
+    border-bottom: 5px white solid;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+
+}
+.navbar{
+    margin: 2% auto;
+    padding: 1% 5%;
+    /* background-color: black; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0 10% 0 0;
+    transition: ease-in 1s;
+    font-weight: lighter;
+}
+
+.link:hover{
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    width: 96%;
+    padding: 2% 2%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    font-size: 30px;
+}
+
+.github{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
